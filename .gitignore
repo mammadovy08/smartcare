@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+mobile/node_modules/
+backend/node_modules/
+
+# Production / Build outputs
+dist/
+dist-web/
+mobile/dist/
+backend/dist/
+build/
+.expo/
+.metro-health-check*
+
+# Temporary files
+temp-*/
+test-web-dist/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# EAS Credentials
+credentials/
